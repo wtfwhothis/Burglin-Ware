@@ -7,8 +7,10 @@ a shit codded Burglin' Gnomes cheat made in C# for MelonLoader.
 
 ## Releasing at 10 stars.<br>
 
-<img width="1907" height="1055" alt="image" src="https://github.com/user-attachments/assets/a3f23b37-2b7e-4287-b880-5e058f05f006" />
-<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/50b07903-509f-4590-99f3-2cc04759ca94" />
+<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/34a1685b-1f03-4c0f-86dc-49d080522028" />
+<img width="1907" height="1055" alt="image" src="https://github.com/user-attachments/assets/db316e16-f595-4cac-8912-994d47fb5d60" />
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/bafbf635-3d2e-4bb8-bf3a-095c8d489348" />
+
 
 ## 🚀 Features Overview
 
