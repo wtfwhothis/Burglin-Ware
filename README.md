@@ -132,7 +132,7 @@ Player list with Steam name resolution and `[YOU]` indicator for local player.
 
 **Admin:** Kick Player (host only)
 
-### Tab 6 — NPCs
+### Tab 6 - NPCs
 
 Two sub-tabs: **NPCs** and **Spawner**.
 
@@ -152,7 +152,7 @@ Two sub-tabs: **NPCs** and **Spawner**.
 
 Select enemy type from: Redcap, Rat, Roach, Cat, Human, Mole. Adjust quantity with slider (1-50). Quick spawn buttons: x1, x5, x10, x25. Enemies spawn at local player position with random offset, using reflection to access AiDirector enemy configs.
 
-### Tab 7 — Miscs
+### Tab 7 - Miscs
 
 Five sub-tabs: **RC Cars**, **Vacuum**, **Spider**, **Mass**, **World**.
 
@@ -192,7 +192,7 @@ Five sub-tabs: **RC Cars**, **Vacuum**, **Spider**, **Mass**, **World**.
 **Exploits:**
 - Crash All Players — ToggleGraphics corruption + network resync causes NullReferenceException on all clients
 
-### Tab 8 — Visuals (ESP)
+### Tab 8 - Visuals (ESP)
 
 Four sub-tabs: **Players**, **NPCs**, **Items**, **Settings**.
 
