@@ -8,9 +8,8 @@ A cheat mod for Burglin' Gnomes, built in C# for MelonLoader.
 
 ---
 
-<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/34a1685b-1f03-4c0f-86dc-49d080522028" />
-<img width="1907" height="1055" alt="image" src="https://github.com/user-attachments/assets/db316e16-f595-4cac-8912-994d47fb5d60" />
-<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/bafbf635-3d2e-4bb8-bf3a-095c8d489348" />
+<img width="1536" height="1024" alt="d3cd763c-4448-44ce-9efe-7741ef1a24cc" src="https://github.com/user-attachments/assets/7ca9bf54-3318-47dd-9ee4-6fc95c1c17cf" />
+<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/9ad5a23f-fec7-4e58-b1bd-eec2490510ce" />
 
 ---
 
