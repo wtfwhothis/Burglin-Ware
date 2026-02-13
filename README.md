@@ -2,7 +2,7 @@
 
 A cheat mod for Burglin' Gnomes, built in C# for MelonLoader.
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-1.6-blue)
 ![Game](https://img.shields.io/badge/game-Burglin'%20Gnomes-green)
 ![Framework](https://img.shields.io/badge/framework-MelonLoader-orange)
 
