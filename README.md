@@ -17,7 +17,7 @@ A cheat mod for Burglin' Gnomes, built in C# for MelonLoader.
 ## Installation
 
 1. Install [MelonLoader](https://melonwiki.xyz/) for Burglin' Gnomes
-2. Download `GnomeCheat.dll`
+2. Download `BurglinWare.v*.*.dll`
 3. Place it in `[Game Directory]/Mods/`
 4. Launch the game
 5. Press **INSERT** or **N** to toggle the menu
