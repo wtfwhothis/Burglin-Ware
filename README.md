@@ -1,231 +1,213 @@
 # Burglin'Ware
-a shit codded Burglin' Gnomes cheat made in C# for MelonLoader.
 
-![Version](https://img.shields.io/badge/version-3.0-blue)
-![Game](https://img.shields.io/badge/game-Burglin'%20Gnomes%20Demo-green)
+A cheat mod for Burglin' Gnomes, built in C# for MelonLoader.
+
+![Version](https://img.shields.io/badge/version-2.0-blue)
+![Game](https://img.shields.io/badge/game-Burglin'%20Gnomes-green)
 ![Framework](https://img.shields.io/badge/framework-MelonLoader-orange)
 
-## Releasing at 10 stars.<br>
+---
 
-<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/34a1685b-1f03-4c0f-86dc-49d080522028" />
-<img width="1907" height="1055" alt="image" src="https://github.com/user-attachments/assets/db316e16-f595-4cac-8912-994d47fb5d60" />
-<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/bafbf635-3d2e-4bb8-bf3a-095c8d489348" />
+## Installation
 
-
-## 🚀 Features Overview
-
-### 📦 **TAB 1: ITEMS**
-Spawn any resource item in the game.
-
-| Feature | Description |
-|---------|-------------|
-| **Load Items List** | Dynamically loads all available items from game resources |
-| **Scrollable Selection** | Browse through all items with a scrollable list |
-| **Spawn Item** | Spawns selected item 2m in front of player |
+1. Install [MelonLoader](https://melonwiki.xyz/) for Burglin' Gnomes
+2. Download `GnomeCheat.dll`
+3. Place it in `[Game Directory]/Mods/`
+4. Launch the game
+5. Press **INSERT** or **N** to toggle the menu
 
 ---
 
-### 🔧 **TAB 2: OBJECTS**
-Spawn 30+ interactive objects instantly.
-
-#### Available Objects:
-- **Weapons**: Knife, Gun, Taser, Grenade, PepperSpray
-- **Traps**: Mousetrap
-- **Toys**: BearToy, CatToy, BallToy, RobotToy
-- **Food**: Egg, Bread
-- **Electronics**: Toaster, Radio, RecordPlayer, GameConsole, GameConsoleJoystick, Hairdryer
-- **Kitchen**: Fork, Pan, Teapot, CatBowl
-- **Home Items**: Globe, ClockTable, Slipper, Underpants, TrashBucket, Plunger, ToiletPaper
-
-| Feature | Description |
-|---------|-------------|
-| **Quick Spawn** | Spawn any object with one click |
-| **Find All Objects** | Debug tool to search scene for objects |
-
----
-
-### 👤 **TAB 3: PLAYER (Local)**
-Complete control over your character.
-
-| Feature | Description |
-|---------|-------------|
-| **God Mode** | Continuous invincibility (auto-respawn) |
-| **Fly Mode** | Free-flight with WASD + Space/Ctrl controls |
-| **Fly Speed Slider** | Adjust flight speed from 1 to 50 |
-| **Full Heal** | Instantly restore health |
-| **Kill Player** | Suicide command |
-| **Force Ragdoll** | Enable ragdoll physics manually |
-| **Unragdoll** | Disable ragdoll and return to normal |
-
----
-
-### 🌐 **TAB 4: TELEPORT (Local)**
-Instant teleportation commands.
-
-| Feature | Description |
-|---------|-------------|
-| **Teleport to Spawn** | Return to player spawn point |
-| **Teleport Forward 10m** | Move 10 meters forward |
-| **Teleport Up 5m** | Move 5 meters upward |
-
----
-
-### 👥 **TAB 5: ONLINE (Multiplayer)**
-Full multiplayer player control and trolling.
-
-#### Player Management
-| Feature | Description |
-|---------|-------------|
-| **Player List** | Shows all connected players with Steam names |
-| **Auto Name Loading** | Async Steam name fetching |
-| **[YOU] Indicator** | Clearly shows which player is you |
-
-#### Basic Actions
-| Feature | Description |
-|---------|-------------|
-| **Heal** | Heal selected player |
-| **Kill** | Kill selected player |
-| **Ragdoll** | Force ragdoll on player |
-| **Unragdoll** | Remove ragdoll from player |
-
-#### 🎪 Troll Options
-| Feature | Description |
-|---------|-------------|
-| **Launch Up** | Launch player 50m into the air |
-| **Explode** | Apply massive explosion force to ragdoll |
-| **Spin** | Apply random angular velocity |
-| **Freeze** | Freeze player ragdoll in place |
-| **Dismember Head** | Remove player's head |
-| **Dismember Legs** | Remove both legs |
-
-#### 👹 Kidnapper Options
-| Feature | Description |
-|---------|-------------|
-| **Spider Kidnap** | Force spider to grab player |
-| **Vacuum Kidnap** | Force vacuum to suck up player |
-| **Human Kidnap** | Force neighbor to kidnap player |
-| **Release All** | Free player from all kidnappers |
-
-#### Teleport Options
-| Feature | Description |
-|---------|-------------|
-| **Teleport to Me** | Bring selected player to your location |
-| **Teleport Me to Them** | Go to selected player's location |
-
----
-
-### 🤖 **TAB 6: NPCs**
-Control all NPCs in the game.
-
-#### 🎩 BOB (Gnome Thief)
-| Feature | Description |
-|---------|-------------|
-| **TP Bob to Me** | Teleport Bob 3m in front of you |
-| **TP Bob Away** | Send Bob to void (y=-1000) |
-| **Kill Bob** | Destroy Bob permanently |
-| **Make Bob Drop** | Force Bob to drop carried items |
-
-#### 🏠 HUMAN (Neighbor)
-| Feature | Description |
-|---------|-------------|
-| **TP Human to Me** | Teleport neighbor 3m in front of you |
-| **TP Human Away** | Send neighbor to void (y=-1000) |
-| **Kill Human** | Deal 999 damage to neighbor |
-| **Release Player** | Free any kidnapped player |
-| **Drop Gun** | Make neighbor drop weapon |
-| **Make Naked** | Toggle naked/clothed mesh state |
-
-#### General
-| Feature | Description |
-|---------|-------------|
-| **Find All NPCs** | Debug search for Bob and Human in console |
-
----
-
-### 🎉 **TAB 7: FUN**
-Chaos and entertainment features.
-
-#### 🚗 RC CARS (Sub-Tab)
-
-##### Car List & Selection
-| Feature | Description |
-|---------|-------------|
-| **Auto-Detection** | Finds all RC Cars in scene |
-| **Driver Display** | Shows Steam name of current driver |
-| **Scrollable List** | Browse all cars with status |
-
-##### Individual Car Control
-| Feature | Description |
-|---------|-------------|
-| **TP to Me** | Teleport car 3m in front of you |
-| **TP Me to Car** | Teleport yourself to the car |
-| **Launch Up** | Launch car 30m upward |
-| **Flip** | Reset car rotation to upright |
-| **Spin** | Apply random angular velocity |
-| **Freeze** | Stop all velocity (linear & angular) |
-| **Super Speed** | Boost forward velocity to 50 m/s |
-| **Duplicate** | Clone the selected car (networked) |
-| **Eject Driver** | Remove current driver |
-| **Delete Car** | Destroy selected car |
-
-##### Mass Actions
-| Feature | Description |
-|---------|-------------|
-| **Launch All** | Launch every RC Car in scene |
-| **Super Speed All** | Boost all cars simultaneously |
-| **Delete All** | Remove all RC Cars from game |
-
-#### 🌪️ VACUUM (Sub-Tab)
-| Feature | Description |
-|---------|-------------|
-| **Status Display** | Shows if vacuum is ON or OFF |
-| **TP Vacuum to Me** | Teleport vacuum 3m in front of you |
-| **TP Me to Vacuum** | Teleport yourself to vacuum |
-| **Toggle ON/OFF** | Switch vacuum power state |
-| **Release All Players** | Free all trapped players |
-
-#### 🕷️ SPIDER (Sub-Tab)
-| Feature | Description |
-|---------|-------------|
-| **Status Display** | Shows if spider is holding a player |
-| **TP Spider to Me** | Teleport spider 3m in front of you |
-| **TP Me to Spider** | Teleport yourself to spider |
-| **Kill Spider** | Destroy the spider |
-| **Release Player** | Free trapped player |
-
----
-
-## ⌨️ Controls
+## Controls
 
 | Key | Action |
 |-----|--------|
-| **INSERT** | Toggle menu ON/OFF |
-| **WASD** | Fly Mode movement (when enabled) |
-| **SPACE** | Fly Mode up (when enabled) |
-| **LEFT CTRL** | Fly Mode down (when enabled) |
+| INSERT | Toggle menu |
+| WASD/ZQSD | Fly / Noclip movement |
+| Space | Fly up |
+| Left Ctrl | Fly down |
+| Left Shift | Fly speed boost (x2) |
 
 ---
 
-## 📋 Installation
+## Features
 
-1. **Install MelonLoader** for Burglin' Gnomes Demo
-2. Download `GnomeCheat.dll`
-3. Place in `[Game Directory]/Mods/`
-4. Launch game
-5. Press **INSERT** to open menu
+### Tab 1 - Items
+
+Spawn any resource item from the game's internal item database.
+
+- Dynamic item list loaded from game resources
+- Scrollable selection list
+- Spawns selected item 2m in front of player
+
+### Tab 2 - Objects
+
+Spawn 30+ interactive objects with one click.
+
+| Category | Objects |
+|----------|---------|
+| Weapons | Knife, Gun, Taser, Grenade, PepperSpray |
+| Traps | Mousetrap |
+| Toys | BearToy, CatToy, BallToy, RobotToy |
+| Food | Egg, Bread |
+| Electronics | Toaster, Radio, RecordPlayer, GameConsole, GameConsoleJoystick, Hairdryer |
+| Kitchen | Fork, Pan, Teapot, CatBowl |
+| Home | Globe, ClockTable, Slipper, Underpants, TrashBucket, Plunger, ToiletPaper |
+
+### Tab 3 - Self (Local Player)
+
+Full control over your own character.
+
+**Toggles:**
+- God Mode — continuous invincibility with auto-respawn
+- Fly Mode — free-flight with camera-relative WASD movement, shift for speed boost
+- Noclip — walk through walls (layer-based, no physics disruption)
+- ~~Invisibility (Network) — hidden from all players via render + scale manipulation~~
+- Infinite Arms — max reach distance, no arm break/dismemberment
+- ~~Strong Arms — carry any object regardless of weight~~
+- No Ragdoll — prevents ragdolling
+- Anti-Kidnap — auto-untie, blocks spider/vacuum/human grabs
+- Infinite Stamina — stamina never depletes
+
+**Actions:**
+- Full Heal / Kill Player
+- Force Ragdoll / Unragdoll
+
+**Speed:** adjustable multiplier (1x to 10x) with slider and quick presets
+
+**Disguise:** Bob Disguise, Mole Disguise — replaces player model with NPC model while hiding your own
+
+### Tab 4 - Teleport
+
+- Teleport to Spawn
+- Teleport Forward 10m
+- Teleport Up 5m
+
+### Tab 5 - Online (Multiplayer)
+
+Player list with Steam name resolution and `[YOU]` indicator for local player.
+
+**Basic Actions:** Heal, Kill, Ragdoll, Unragdoll
+
+**Troll Options:**
+
+| Action | Description |
+|--------|-------------|
+| Launch Up | Ragdoll + 50m upward force |
+| Explode | Explosion force on ragdoll |
+| Spin | Random angular velocity |
+| Freeze | Zero all ragdoll velocity |
+| Dismember Head | Remove head via network RPC |
+| Dismember Legs | Remove both legs via network RPC |
+| Throw Knife | Spawn and throw knife at player |
+| Shoot | Spawn and shoot gun at player |
+| Grenade | Spawn grenade at player position and instant-explode |
+| Blind | Trigger blind effect on player |
+| RC Kamikaze | Drive RC car into player at max speed and explode |
+| Tornado | Continuous ragdoll + spin effect |
+| Freeze Player | Lock player in place |
+| Spectate | Attach camera to player |
+| Headstand | Continuously teleport on top of player |
+
+**Spawn NPC on Player:** select enemy type (Redcap, Rat, Roach, Cat, Human, Mole) with quantity slider and spawn them at the target player's position.
+
+**Kidnapper Options:** Spider Kidnap, Vacuum Kidnap, Human Kidnap, Release All
+
+**Chaos:**
+
+| Action | Description |
+|--------|-------------|
+| Set on Fire / Extinguish | Apply or remove fire effect |
+| Stun (5s / 15s) | Stun player for duration |
+| Tie Up / Untie | Bind or free player |
+| Rain Grenades | Spawn multiple grenades above player |
+
+**Teleport:** Teleport target to you, or yourself to target
+
+**Admin:** Kick Player (host only)
+
+### Tab 6 — NPCs
+
+Two sub-tabs: **NPCs** and **Spawner**.
+
+**NPC Control:**
+
+| NPC | Actions |
+|-----|---------|
+| Bob (Gnome Thief) | TP to me, TP away, Kill, Make drop items |
+| Human (Neighbor) | TP to me, TP away, Kill, Release player, Drop gun, Make naked |
+| Cat | TP to me, Cat attack, Spam meow, Spam hiss |
+
+- Find All NPCs (debug log)
+- Kill All Enemies — iterates all GameEntityAI and kills them
+- Despawn All Enemies — calls AiDirector.DespawnEnemies()
+
+**Enemy Spawner:**
+
+Select enemy type from: Redcap, Rat, Roach, Cat, Human, Mole. Adjust quantity with slider (1-50). Quick spawn buttons: x1, x5, x10, x25. Enemies spawn at local player position with random offset, using reflection to access AiDirector enemy configs.
+
+### Tab 7 — Miscs
+
+Five sub-tabs: **RC Cars**, **Vacuum**, **Spider**, **Mass**, **World**.
+
+**RC Cars:**
+- Auto-detection of all RC Cars in scene with driver display
+- Per-car controls: TP to me, TP me to car, Launch up, Flip, Spin, Freeze, Super Speed, Duplicate, Eject driver, Delete
+- Spawn RC Car (also available when no cars exist)
+- Mass actions: Launch all, Super Speed all, Delete all
+
+**Vacuum:**
+- Status display (ON/OFF)
+- TP Vacuum to me / TP me to Vacuum
+- Toggle ON/OFF
+- Release all players
+
+**Spider:**
+- Status display (holding player or not)
+- TP Spider to me / TP me to Spider
+- Kill Spider
+- Release player
+
+**Mass Actions (Host):**
+- Kill All, Heal All, Ragdoll All, Launch All
+- Set All on Fire, Extinguish All
+- Stun All, Tie All, Untie All
+- TP All to Me
+
+**Chaos:**
+- Item Rain (30 items)
+- Grenade Rain (15 grenades)
+- LAG ALL (500 objects) / MEGA LAG (2000 objects)
+
+**World:**
+- Open All Doors (force push)
+- Explode All Grenades
+
+**Exploits:**
+- Crash All Players — ToggleGraphics corruption + network resync causes NullReferenceException on all clients
+
+### Tab 8 — Visuals (ESP)
+
+Four sub-tabs: **Players**, **NPCs**, **Items**, **Settings**.
+
+**Player ESP:** boxes, names, health bars, distance, tracers
+
+**NPC ESP:** toggle per NPC type (Bob, Human, Spider) with boxes, names, distance, tracers
+
+**Item ESP:** names, distance, tracers
+
+**Settings:**
+- Max render distance slider
+- Quick toggles: All ON/OFF, All Tracers ON/OFF, All Boxes ON/OFF
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-This mod is for **educational and entertainment purposes only**. Use responsibly in multiplayer games. Griefing or ruining others' gameplay experience is discouraged.
-
----
-
-## 📫 Support
-
-For bugs, suggestions, or feedback, please open an issue on GitHub.
+This mod is for educational and entertainment purposes only. Use at your own risk.
 
 ---
 
-**Enjoy the chaos! 🎮🔥**
+## Support
+
+For bugs, suggestions, or feedback, open an issue on GitHub.
